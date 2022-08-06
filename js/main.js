@@ -123,7 +123,7 @@ $(document).ready(function (e) {
         }),
         (e.managerDialog = [
             {
-                text: "Hi!<br>Ako si Jayneology 08. Isang Physic reader at Astrologo.<br>",
+                text: "Hi!<br>Ako si JAYNEOLOGY 08. Isang Physic reader at Astrologo.<br>",
             },
             {
                 text: "Ikaw ba ay Lalaki o Babae?",

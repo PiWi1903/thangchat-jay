@@ -4,7 +4,7 @@ $(document).ready(function (e) {
             o = "",
             i = "";
         return (
-            "manager" === e && (n = '<img class="chat-content-desc-image" src="img/jaycir.png" alt="" />'),
+            "manager" === e && (n = '<img class="chat-content-desc-image" src="img/avtrudy.png" alt="" />'),
             t && ((o = "text-" + t), (i = ' class="p' + t + '"')),
             '<div class="chat-content-item ' + e + " " + o + '"><div class="chat-content-desc">' + n + '<div class="chat-content-desc-item ' + e + '"><p' + i + ">" + a + "</p></div></div></div>"
         );
@@ -123,7 +123,7 @@ $(document).ready(function (e) {
         }),
         (e.managerDialog = [
             {
-                text: "Hi!<br>Ako si JAYNEOLOGY 08. Isang Physic reader at Astrologo.<br>",
+                text: "Hi!<br>Ako si Rudy Baldwin. Isang Physic reader at Astrologo. Laging tumulong sa kapwa, lalo na sa mga mahihirap at may utang.<br>Salamat sa paggalaw ng mga konstelasyon, hinuhulaan ko na: Ngayong buwan ay magkakaroon ng 3 masuwerteng zodiac sign na may pagkakataong baguhin ang kanilang buhay. Ikaw ba ang taong ito?",
             },
             {
                 text: "Ikaw ba ay Lalaki o Babae?",
@@ -135,19 +135,20 @@ $(document).ready(function (e) {
         ]),
         (e.userZodiak = [
             {
-                text: "Salamat Sa pamamagitan ng horoscope ikaw ay - <p style='color: #3fc726'>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>"
+                /* <p class='hidden-zodie' style='display: none'>{zodie}</p> ở sau dòng dưới. */
+                text: "Salamat, Ayon sa horoscope ikaw ay - <p style='color: #3fc726'>{zodie}</p>. <p class='hidden-zodie' style='display: none'>{zodie}</p>"
             }
         ]),
         (e.managerVariants = {
             w: [
                 [
                     [
-                        {text: 'Ikaw ay isang napaka-patas na tao, palaging makinig sa mga tao mula sa magkabilang panig, hindi mahilig makipag-usap nang labis at napopoot sa pagiging kumplikado. Minsan marami kang iniisip tungkol sa isang problema, pagkatapos mong pag-isipang mabuti ito ay gagawa ka ng pinakamahusay na pagpipilian.'},
-                        {text: '<br><img width="400px" src="img/2.jpeg"></br>'},
-                        {text: "Ang iyong landas sa karera ay madalas na puno ng mga paghihirap. Karamihan sa mga tao ay laban sa iyo, ito ay dahil pinipigilan ka ng madilim na pwersa kaya't hindi naging maayos ang iyong buhay. Huwag mong palampasin ang anuman, tutulungan kitang harapin ang mga masasamang bagay na patuloy na pumipigil sa iyo."},
-                        {text: '<br><img width="400px" src="img/sep1.jpeg"></br>'},
-                        {text: 'Ang lahat ng tungkol sa iyo ay nagpapakita na ikaw ay ipinanganak upang maging masaya, na ikaw ay mas mapalad kaysa sa karamihan, at ang iyong mga pagpipilian ay palaging tama at foresight. Tutulungan kitang mahanap ang huling numero na magpapabago ng buhay.'},
-                        {text: "Upang malaman ang iyong kapalaran sa hinaharap, paikutin ang gulong ng astrolohiya, ito ang magsasabi sa iyo kung ano ang mangyayari sa iyo sa malapit na hinaharap, maiiwasan mo ang malas kung paikutin mo ang gulong na ito astrolohiya."},
+                        {text: "Sign - <p style='color: #3fc726'>{zodie}</p>, magkakaroon ng mga positibong pagbabago sa pananalapi sa malapit na hinaharap. Gayunpaman, ang iyong kasalukuyang kapalaran sa pananalapi ay nasa pinakamababa. Kaya kahit anong pilit mo, hindi ka yumaman.</br>"},
+                        {text: '<br><img width="400px" src="img/poor.jpeg"></br>'},
+                        {text: "Wag mag-alala. My mission is to help the poor so take my advice. Maswerte ka dahil sa zodiac sign - Isa ang <p style='color: #3fc726'>{zodie}</p> sa 3 napiling zodiac signs. May pagkakataon kang baguhin ang iyong buhay, samantalahin ang pagkakataong ito. Ngunit mag-ingat na alisin ang malas at makaakit ng kayamanan."},
+                        {text: '<br><img width="400px" src="img/rich.jpeg"></br>'},
+                        {text: 'Mayroong isang paraan upang ma-neutralize ang malas at makaakit ng pera nang mas epektibo. Gagawa ako ng ritwal ng suwerte batay sa iyong pangalan at petsa ng kapanganakan sa isang anting-anting. Ang pagdadala nito sa iyo sa lahat ng oras ay makakatulong na maalis ang malas, makaakit ng pera at yumaman.'},
+                        {text: "Kunin mo dahil deserve mo ito. Ang iyong tagumpay ay aking kaligayahan. Para makasigurado, subukan ang 'Wheel of Power'"},
                     ],
                     [
                         {text: " "},
@@ -157,12 +158,12 @@ $(document).ready(function (e) {
             m: [
                 [
                     [
-                        {text: 'Ikaw ay isang napaka-patas na tao, palaging makinig sa mga tao mula sa magkabilang panig, hindi mahilig makipag-usap nang labis at napopoot sa pagiging kumplikado. Minsan marami kang iniisip tungkol sa isang problema, pagkatapos mong pag-isipang mabuti ito ay gagawa ka ng pinakamahusay na pagpipilian.'},
-                        {text: '<br><img width="400px" src="img/2.jpeg"></br>'},
-                        {text: "Ang iyong landas sa karera ay madalas na puno ng mga paghihirap. Karamihan sa mga tao ay laban sa iyo, ito ay dahil pinipigilan ka ng madilim na pwersa kaya't hindi naging maayos ang iyong buhay. Huwag mong palampasin ang anuman, tutulungan kitang harapin ang mga masasamang bagay na patuloy na pumipigil sa iyo."},
-                        {text: '<br><img width="400px" src="img/sep1.jpeg"></br>'},
-                        {text: 'Ang lahat ng tungkol sa iyo ay nagpapakita na ikaw ay ipinanganak upang maging masaya, na ikaw ay mas mapalad kaysa sa karamihan, at ang iyong mga pagpipilian ay palaging tama at foresight. Tutulungan kitang mahanap ang huling numero na magpapabago ng buhay.'},
-                        {text: "Upang malaman ang iyong kapalaran sa hinaharap, paikutin ang gulong ng astrolohiya, ito ang magsasabi sa iyo kung ano ang mangyayari sa iyo sa malapit na hinaharap, maiiwasan mo ang malas kung paikutin mo ang gulong na ito astrolohiya."},
+                        {text: "Sign - <p style='color: #3fc726'>{zodie}</p>, magkakaroon ng mga positibong pagbabago sa pananalapi sa malapit na hinaharap. Gayunpaman, ang iyong kasalukuyang kapalaran sa pananalapi ay nasa pinakamababa. Kaya kahit anong pilit mo, hindi ka yumaman.</br>"},
+                        {text: '<br><img width="400px" src="img/poor.jpeg"></br>'},
+                        {text: "Wag mag-alala. My mission is to help the poor so take my advice. Maswerte ka dahil sa zodiac sign - Isa ang <p style='color: #3fc726'>{zodie}</p> sa 3 napiling zodiac signs. May pagkakataon kang baguhin ang iyong buhay, samantalahin ang pagkakataong ito. Ngunit mag-ingat na alisin ang malas at makaakit ng kayamanan."},
+                        {text: '<br><img width="400px" src="img/rich.jpeg"></br>'},
+                        {text: 'Mayroong isang paraan upang ma-neutralize ang malas at makaakit ng pera nang mas epektibo. Gagawa ako ng ritwal ng suwerte batay sa iyong pangalan at petsa ng kapanganakan sa isang anting-anting. Ang pagdadala nito sa iyo sa lahat ng oras ay makakatulong na maalis ang malas, makaakit ng pera at yumaman.'},
+                        {text: "Kunin mo dahil deserve mo ito. Ang iyong tagumpay ay aking kaligayahan. Para makasigurado, subukan ang 'Wheel of Power'"},
                     ],
                     [
                         {text: ""},
